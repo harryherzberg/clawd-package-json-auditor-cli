@@ -1,1 +1,37 @@
-# package-json-auditor-cli\n\nCLI to audit your `package.json` for:\n\n- Suspicious scripts (e.g. rm -rf, curl|bash)\n- Risky licenses (GPL, AGPL, copyleft)\n- Outdated dependencies (compares to latest)\n\n**Free**: Console table of issues\n**Pro** ($29 lifetime): PDF report with styled table\n\n## Who it&#39;s for\n\n- Node.js developers &amp; teams\n- Indie hackers\n- DevOps preventing supply chain attacks &amp; compliance issues\n\n**Why pay today?** Saves hours debugging deps/licenses, avoids legal/prod risks.\n\n## Install\n\n```sh\nnpm i -g package-json-auditor-cli\n```\n\n## Usage\n\n```sh\npkg-audit [dir]\n\nPKG_AUDIT_LICENSE=your-pro-key pkg-audit .\n```\n\nOptions:\n  --license-key &lt;key&gt;  Pro license key\n\n## Pro License\n\nBuy from [Gumroad](https://gumroad.com) ($29) - instant license key delivery.\n\n## Local Run\n\n```sh\ncd apps/package-json-auditor-cli\nnpm i\nnpm start  # or node index.js\n```\n\n## Example\n\nFree:\n```\nPackage.json Audit Results:\n┌─────────────┬──────────────────┐\n│ (index)    │ value            │\n├─────────────┼──────────────────┤\n│ type        │ outdated-dep     │\n│ package     │ lodash           │\n│ current     │ ^4.17.21         │\n│ latest      │ 4.17.21          │\n└─────────────┴──────────────────┘\n❌ DEMO MODE - Buy pro key from Gumroad for PDF/exports ($29)\n```\n\nPro: Generates `pkg-audit-report.pdf`\n\nnpm pack ready for Gumroad/n publish.
+<div align="center">
+
+# 📦 Package.json Auditor
+
+**Best practices & security audit for package.json**
+
+<img src="https://img.shields.io/badge/Pro-%2419-10b981?style=for-the-badge&logo=gumroad" alt="Pro 19" /> <a href="https://harryherzberg.gumroad.com/l/package-json-auditor">Buy Pro</a>
+</div>
+
+## ✨ Features
+
+| Feature | Benefit |
+|---------|---------|
+| Dep Warnings | Unused/outdated |
+| Scripts Check | Common issues |
+| Security Scan | Known vuln deps |
+| Pro PDF | Detailed audit |
+| Fix Commands | Auto suggestions |
+
+## 🚀 Quick Start
+
+```bash
+npx package-json-auditor@latest --help
+# Or global: npm i -g package-json-auditor
+```
+
+## 💎 Go Pro - Lifetime $19
+
+- ✅ Unlimited runs
+- 📄 PDF reports
+- 🏢 Commercial use
+- 💬 Support
+
+<img src="https://img.shields.io/badge/Buy_Pro-%2419-FF6B35?style=for-the-badge&logo=gumroad" alt="Buy Pro" /> <a href="https://harryherzberg.gumroad.com/l/package-json-auditor">Buy Now</a>
+
+---
+👨‍💻 [Harry Herzberg](https://github.com/harryherzberg) | 🐙 [GitHub](https://github.com/harryherzberg/clawd/tree/main/apps/package-json-auditor-cli)
