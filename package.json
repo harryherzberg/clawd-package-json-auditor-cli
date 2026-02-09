@@ -1,5 +1,5 @@
 {
-  "name": "package-json-auditor-cli",
+  "name": "@spiderjew/package-json-auditor-cli",
   "version": "1.0.0",
   "description": "CLI to audit package.json for outdated deps, risky licenses, suspicious scripts. Pro PDF reports.",
   "main": "index.js",
@@ -9,7 +9,12 @@
   "scripts": {
     "start": "node index.js"
   },
-  "keywords": ["audit", "npm", "security", "devops"],
+  "keywords": [
+    "audit",
+    "npm",
+    "security",
+    "devops"
+  ],
   "author": "Clawdbot Apps <apps@clawdbot.com>",
   "license": "ISC",
   "dependencies": {
@@ -19,5 +24,8 @@
     "license-checker-rseidelsohn": "^2.0.0",
     "axios": "^1.7.7",
     "semver": "^8"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
